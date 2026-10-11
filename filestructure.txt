@@ -1,0 +1,35 @@
+|-- .gitignore
+|-- fireguard
+    |-- api
+        |-- admin.py
+        |-- apps.py
+        |-- consumers.py
+        |-- migrations
+            |-- 0001_initial.py
+            |-- __init__.py
+        |-- models.py
+        |-- routing.py
+        |-- templates
+            |-- admin_firealerts.html
+            |-- dashboard.html
+            |-- fireguard
+                |-- base.html
+        |-- tests.py
+        |-- urls.py
+        |-- views.py
+        |-- __init__.py
+    |-- db.sqlite3
+    |-- fireguard
+        |-- asgi.py
+        |-- settings.py
+        |-- urls.py
+        |-- wsgi.py
+        |-- __init__.py
+    |-- manage.py
+    |-- weights
+        |-- best.onnx
+        |-- best.pt
+        |-- last.pt
+|-- licence
+|-- readme.md
+|-- requirements.txt
